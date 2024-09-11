@@ -33,11 +33,21 @@ Plugin & Theme Conflict Checker is a WordPress plugin designed to help you detec
 4. View the detected conflicts and take action as needed (e.g., updating plugins, deactivating conflicting plugins, or fixing JavaScript issues).
 ## File Structure
 ```
-/plugin-theme-conflict-checker/
+plugin-theme-conflict-checker/
 │
-├── conflict-checker.php         # Main plugin file
-├── readme.txt                   # WordPress-specific readme
-└── assets/                      # Directory for plugin assets like icons or stylesheets (if needed)
+├── assets/                      # Directory for plugin assets (e.g., images, styles, scripts)
+│   └── icon.png                 # (Optional) Plugin icon for WordPress repository (if applicable)
+│
+├── includes/                    # (Optional) Helper functions or additional PHP files for modular code
+│   └── helper-functions.php     # (Optional) Additional functions to modularize the main plugin logic
+│
+├── conflict-checker.php         # Main plugin file (entry point)
+├── readme.txt                   # WordPress repository readme file (required for WP repo submission)
+├── README.md                    # GitHub README file with detailed documentation
+├── LICENSE                      # License file (e.g., GPL2 or GPL3)
+├── .gitignore                   # Git ignore file for ignoring unnecessary files (e.g., WordPress core files)
+└── requirements.txt             # (Optional) Lists any PHP dependencies or version requirements
+
 ```
 Example Code
 Here’s a brief look at how the plugin checks for plugin and theme updates:
