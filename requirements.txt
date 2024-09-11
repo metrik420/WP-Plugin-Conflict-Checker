@@ -1,0 +1,13 @@
+# Minimum PHP version required to run this plugin
+PHP>=7.2
+
+# Minimum WordPress version required
+WordPress>=5.2
+
+# (Optional) PHP libraries required for error logging or other functionality
+ext-json
+ext-curl
+
+# If using external libraries (like Composer packages), list them here (if applicable)
+# Example:
+# guzzlehttp/guzzle
