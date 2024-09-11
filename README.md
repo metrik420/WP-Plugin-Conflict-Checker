@@ -36,7 +36,14 @@ Plugin & Theme Conflict Checker is a WordPress plugin designed to help you detec
 plugin-theme-conflict-checker/
 │
 ├── assets/                      # Directory for plugin assets (e.g., images, styles, scripts)
-│   └── icon.png                 # (Optional) Plugin icon for WordPress repository (if applicable)
+│   ├── css/                     # Directory for custom CSS styles
+│   │   └── style.css            # Custom CSS file for the plugin
+│   ├── js/                      # Directory for custom JavaScript files
+│   │   └── script.js            # Custom JavaScript file for the plugin
+│   ├── images/                  # Directory for images
+│   │   └── icon.png             # (Optional) Plugin icon for WordPress repository or UI
+│   └── icons/                   # Directory for icon assets
+│       └── admin-icon.svg       # SVG icon for plugin admin menu (if needed)
 │
 ├── includes/                    # (Optional) Helper functions or additional PHP files for modular code
 │   └── helper-functions.php     # (Optional) Additional functions to modularize the main plugin logic
