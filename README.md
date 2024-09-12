@@ -37,7 +37,7 @@ plugin-theme-conflict-checker/
 │
 ├── assets/                      # Directory for plugin assets (e.g., images, styles, scripts)
 │   ├── css/                     # Directory for custom CSS styles
-│   │   └── style.css            # Custom CSS file for the plugin
+│   │   └── st.css            # Custom CSS file for the plugin
 │   ├── js/                      # Directory for custom JavaScript files
 │   │   └── script.js            # Custom JavaScript file for the plugin
 │   ├── images/                  # Directory for images
