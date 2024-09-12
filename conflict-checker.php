@@ -11,8 +11,8 @@ License: GPL3
 
 // Enqueue CSS and JavaScript files
 function enqueue_conflict_checker_assets() {
-    wp_enqueue_style('conflict-checker-style', plugin_dir_url(__FILE__) . 'assets/css/style.css');
-    wp_enqueue_script('conflict-checker-script', plugin_dir_url(__FILE__) . 'assets/js/script.js', array(), false, true);
+    wp_enqueue_style('conflict-checker-style', plugin_dir_url(__FILE__) . 'assets/CSS/st.css');
+    wp_enqueue_script('conflict-checker-script', plugin_dir_url(__FILE__) . 'assets/js/sc.js', array(), false, true);
 }
 add_action('admin_enqueue_scripts', 'enqueue_conflict_checker_assets');
 
